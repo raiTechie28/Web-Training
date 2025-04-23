@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form verification</title>
+  </head>
+  <body>
+    <!-- creating form -->
+    <form action="/demo example/store.xlsx">
+      <!-- input type of username and password -->
+      <h4>Login your account</h4>
+      <input type="text" placeholder="Username" /> <br><br>
+      <input type="password" placeholder="Password" />
+      
+      <!-- selection of class using label  -->
+      
+      <h4>Select your class</h4>
+      <label for="001">
+        <input type="radio" value="class X" name="class" id="001" /> class X </label
+      >
+      <label for="002">
+        <input type="radio" value="class XII" name="class" id="002" /> class XII </label>
+      <!-- selection of subject on checkbox using label -->
+      <h4>Select your subject</h4>
+      <label for="003">
+        <input type="checkbox" name="math" id="003" /> math
+      </label>
+      <label for="004">
+        <input type="checkbox" name="science" id="004" /> science
+      </label>
+      <label for="005">
+        <input type="checkbox" name="english" id="005" /> english
+      </label>
+      <label for="006">
+        <input type="checkbox" name="physical education" id="006" /> physical
+        education </label>
+      <!-- select tag -->
+      <h4>select your city</h4>
+      <select name="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Gurgoan">Gurgoan</option>
+        <option value="Delhi NCR">Delhi NCR</option>
+      </select>
+      
+      <!-- feedback form -->
+       <br><br>
+      <textarea
+        name="feedback"
+        id="101"
+        placeholder="please share your valuable feedback here "></textarea> <br><br>
+
+        <input type="submit" value="submit">
+    </form>
+  </body>
+</html>
